@@ -33,7 +33,7 @@ set formatoptions=tcqrn1
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
-set expandtab
+" set expandtab  Makefile complains
 set noshiftround
 
 " make backspace work
@@ -41,6 +41,29 @@ set backspace=indent,eol,start
 
 " rendering
 set ttyfast
+
+" show file stats
+set ruler
+
+" Encoding
+set encoding=utf-8
+
+" status bar
+set laststatus=2
+
+" last line
+set showmode
+set showcmd
+
+" search
+set hlsearch
+set ignorecase
+set smartcase
+set showmatch
+map <leader><space> :let @/=''<cr> " clear search
+
+"remap Esc to jk
+inoremap jk <ESC>
 
 " colorscheme: gruvbox
 colorscheme gruvbox
