@@ -20,9 +20,8 @@ My RC and config files
 
 ### Workflow
 After installing,
-* Make changes to a file, say `.vimrc`
+* Make changes to a file, say `.vimrc`, on your branch for the system
 * commit the changes
-* push upstream
 * If master is to be updated with this new file, run `./update_master.sh .vimrc`
 
 Further, say master is updated with a file, say `.vimrc` and you want the changes to be
