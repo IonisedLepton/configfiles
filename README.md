@@ -31,5 +31,6 @@ updated on your system run `./pull_from_master.sh .vimrc`
 The plugins that need to be installed are:
 * `vim-gitgutter`: https://github.com/airblade/vim-gitgutter
 * `gruvbox` : https://github.com/morhetz/gruvbox
+* `vim-commentary` : https://github.com/tpope/vim-commentary
 * `yats` : https://github.com/HerringtonDarkholme/yats.vim
 * `coc` : https://github.com/neoclide/coc.nvim
