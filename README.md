@@ -18,6 +18,12 @@ My RC and config files
 	  install.sh
 	- If no name is supplied, branch will not be created
 
+4. To install other packages for the tools, say `vim`, enter the
+   `install_scripts` directory and install whichever package you want to
+install. For example, to install `gruvbox` for `vim`, do
+	- cd `install_scripts/vim`
+	- `./gruvbox.sh`
+
 ### Workflow
 After installing,
 * Make changes to a file, say `.vimrc`, on your branch for the system
