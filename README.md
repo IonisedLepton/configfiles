@@ -38,5 +38,8 @@ The plugins that need to be installed are:
 * `vim-gitgutter`: https://github.com/airblade/vim-gitgutter
 * `gruvbox` : https://github.com/morhetz/gruvbox
 * `vim-commentary` : https://github.com/tpope/vim-commentary
+* `NERDTree` : https://github.com/preservim/nerdtree
+* `open_file_under_cursor` : https://github.com/amix/open_file_under_cursor.vim
+	- press `gf` to open file under cursor in normal mode
 * `yats` : https://github.com/HerringtonDarkholme/yats.vim
 * `coc` : https://github.com/neoclide/coc.nvim
